@@ -27,8 +27,8 @@ Bu proje, Spring Boot ile JWT tabanlı kimlik doğrulama ve yetkilendirme sağla
 2. Veritabanı ayarlarını `src/main/resources/application.properties` dosyasında güncelleyin:
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/jwt_auth_db
-   spring.datasource.username=postgres
-   spring.datasource.password=147369
+   spring.datasource.username=[YOUR_USERNAME]
+   spring.datasource.password=[YOUR_PASSWORD]
    ```
 3. Maven ile bağımlılıkları yükleyin ve projeyi başlatın:
    ```sh
